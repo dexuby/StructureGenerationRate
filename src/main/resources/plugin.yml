@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+author: ${author}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+api-version: 1.18
+load: POSTWORLD
+commands:
+  sgr:
+    description: Main Structure Generation Rate command.
+    permission: sgr.use
+    usage: /<command>
